@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+/* Start Nav bar */
+nav{
+    position: fixed !important;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 9999999999999;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    padding: 20px !important;
+    background-color: rgba(10, 10, 15, 0.7);
+    flex-wrap: nowrap !important;
+}
+/* .one{
+    background-color: #20c997;
+    width: 25%;
+    height: 100px;
+}
+.tow{
+    background-color: #3f20c9;
+    height: 100px;
+    flex-grow: 0;
+
+}
+.three{
+    width: 75%;
+    background-color: #e4198f;
+    height: 100px;
+} */
+nav .logo{
+    width: 25%;
+    padding: 10px 30px;
+    flex-grow: 1;
+}
+.bt{
+    display: none;
+    width: 0%;
+    flex-grow: 0;
+}
+
+nav .nav-links{
+    width: 75%;
+    justify-self: flex-start;
+    flex-grow: 3;
+}
+nav .nav-links ul{
+    display: flex;
+}
+nav .nav-links li{
+    list-style: none;
+    padding: 0px 0.85em;
+}
+nav .nav-links li a{
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 20px;
+    transition: 0.5s;
+}
+nav .nav-links li a:hover{
+    color: #20c997;
+
+}
+/* End Nav bar */
+/* Start Home page */
+.opt {
+    position: fixed;
+    right: -5;
+    top:35%;
+    width: 45px;
+    height: 45px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #20c997;
+    overflow: hidden;
+    background-image: url(../images/options.JPG);
+    background-size: cover;
+    background-position: center center;
+}
+
+.home{
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.home .home-content{
+    background-color: rgba(10, 10, 15, 0.7);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+.home .home-content p{
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.home .home-content h1{
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 30px;
+    border-right: #ffffff solid 8px;
+}
+.home .home-content h4{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.home .home-content a{
+    color: #20c997;
+    border: #20c997 solid;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px 35px;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.home .home-content a:hover{
+    background-color: #20c997;
+    color: rgba(255, 255, 255, 0.801);
+
+}
+/* End Home page */
+/* Start About page */
+
+/* End About page */
+/* Start About page */
+/* End About page */
+/* Start About page */
+/* End About page */
+/* Start About page */
+/* End About page */
+/* Start About page */
+/* End About page */
+
+
